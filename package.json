@@ -1,0 +1,26 @@
+{
+  "name": "careertech",
+  "version": "1.0.0",
+  "description": "CareerTech - AI-Powered Job Application Tracker (MERN Stack Edition)",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "generate-cvs": "cd backend && npm run create-sample-cvs"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "ai",
+    "job-tracker",
+    "cv-analysis"
+  ],
+  "author": "CareerTech Team",
+  "license": "ISC"
+}

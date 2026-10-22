@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company": "Veloce Technologies",
+    "description": "We are seeking a Junior to Mid-level Frontend Developer with expertise in React, Next.js, TypeScript, and REST APIs. Responsibilities include building responsive UI components, integrating backend endpoints, and optimizing application loading speed.",
+    "location": "Paris, France (Hybrid)",
+    "salary": "€42,000 - €48,000",
+    "status": "Interview",
+    "notes": "Technical interview scheduled for Thursday 2:00 PM with the Lead Engineer."
+  },
+  {
+    "title": "Full Stack Engineer (MERN)",
+    "company": "NovaLabs Innovation",
+    "description": "NovaLabs is hiring a MERN Stack Developer. Requirements: Strong experience with React, Node.js, Express.js, and MongoDB. Must have solid experience with REST APIs and Git version control.",
+    "location": "Remote",
+    "salary": "€45,000 - €52,000",
+    "status": "Applied",
+    "notes": "Applied with customized cover letter highlighting DevConnect project."
+  },
+  {
+    "title": "React Software Engineer",
+    "company": "Starlight SaaS",
+    "description": "Join our product engineering squad to build user-facing analytics dashboards using React, TypeScript, and state management libraries.",
+    "location": "Paris, France",
+    "salary": "€40,000 - €46,000",
+    "status": "Saved",
+    "notes": "Reviewing job requirements before submitting application."
+  },
+  {
+    "title": "Junior Web Developer",
+    "company": "Apex Cloud Services",
+    "description": "Entry-level developer to support web application maintenance, component design, and integration testing.",
+    "location": "Lyon, France (Hybrid)",
+    "salary": "€38,000 - €42,000",
+    "status": "Offer",
+    "notes": "Received official offer letter! Reviewing contract terms."
+  },
+  {
+    "title": "Frontend Angular Developer",
+    "company": "DataPulse Analytics",
+    "description": "Looking for a Frontend Developer with 2+ years of Angular 15+, RxJS, and NgRx experience.",
+    "location": "Remote",
+    "salary": "€44,000",
+    "status": "Rejected",
+    "notes": "Polite rejection received: team was seeking deep Angular and RxJS experience."
+  }
+]
