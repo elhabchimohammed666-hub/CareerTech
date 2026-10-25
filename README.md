@@ -1,3 +1,6 @@
+## License
+   © 2026 Elhabchi Mohammed. All Rights Reserved.
+
 # CareerTech 🚀
 ### AI-Powered Personal Job Application Tracker — MERN Stack Edition
 
