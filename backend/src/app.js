@@ -8,6 +8,7 @@ import authRoutes from './routes/authRoutes.js';
 import cvRoutes from './routes/cvRoutes.js';
 import jobRoutes from './routes/jobRoutes.js';
 import aiRoutes from './routes/aiRoutes.js';
+import { seedDatabase } from './utils/seedData.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 
 dotenv.config();
@@ -38,6 +39,17 @@ app.get('/api/health', (req, res) => {
     service: 'CareerTech API',
     version: '1.0.0',
   });
+});
+
+// Demo Seeder Endpoint (POST or GET)
+app.all('/api/demo/seed', async (req, res) => {
+  try {
+    const result = await seedDatabase();
+    res.status(200).json(result);
+  } catch (error) {
+    console.error('[API Demo Seed Error]:', error);
+    res.status(500).json({ success: false, message: error.message });
+  }
 });
 
 // Mount Routes
