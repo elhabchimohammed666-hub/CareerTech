@@ -92,18 +92,7 @@ cp .env.example .env
 ```
 
 Configure `backend/.env` (optional API keys):
-```env
-PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/careertech
-JWT_SECRET=careertech_super_secret_jwt_key_2026_dev
-JWT_EXPIRES_IN=7d
-CLIENT_URL=http://localhost:5173
 
-# AI Provider: gemini | openai | heuristic
-AI_PROVIDER=gemini
-GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_MODEL=gemini-2.0-flash
-```
 > **Note**: If you don't supply a Gemini or OpenAI API key, CareerTech will automatically use its built-in **Intelligent Semantic Heuristic NLP Analyzer**. The entire application works 100% out of the box with zero external dependencies!
 
 ### 4.3 Generate Sample CVs & Seed Database
